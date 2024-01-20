@@ -1,0 +1,7 @@
+torch
+transformers==4.20.0
+simalign
+numpy==1.21.6
+sentencepiece
+sacremoses
+stanza
