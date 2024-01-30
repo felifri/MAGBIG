@@ -12,3 +12,21 @@ You can generate images for these prompts using `python generate_evaluate\genera
 To reproduce our prompts, you can run your bash script `translate_script\run.sh` or modify it to compute your own translations for new prompts and languages.
 
 Please cite our work if you find it helpful.
+
+
+### Easy use of benchmark
+You can also use our benchmark in the huggingface dataset library: https://huggingface.co/datasets/felfri/MAGBIG
+
+
+### citation
+If you like or use our work, please consider citing us.
+```
+@misc{friedrich2024multilingual,
+      title={Multilingual Text-to-Image Generation Magnifies Gender Stereotypes and Prompt Engineering May Not Help You}, 
+      author={Felix Friedrich and Katharina Hämmerl and Patrick Schramowski and Jindrich Libovicky and Kristian Kersting and Alexander Fraser},
+      year={2024},
+      eprint={2401.16092},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
