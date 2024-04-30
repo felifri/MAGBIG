@@ -1,5 +1,5 @@
 torch
-transformers==4.20.0
+transformers==4.38.0
 simalign
 numpy==1.21.6
 sentencepiece
