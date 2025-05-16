@@ -8,25 +8,23 @@ You can find a Python package requirements file at `translate_script\requirement
 You can generate images for these prompts using `python generate_evaluate\generate_images.py`. After that, you can classify them with `python generate_evaluate\classify_images.py`. For the evaluation, you can use `python generate_evaluate\exp_max_unfairness.py` for bias and `python generate_evaluate\CLIPscore.py` for text-to-image alignment with CLIP. These Python scripts also reproduce our results.
 
 
-### Generating and Translating prompts
+### Generating and Translating Prompts
 To reproduce our prompts, you can run your bash script `translate_script\run.sh` or modify it to compute your own translations for new prompts and languages.
 
 Please cite our work if you find it helpful.
 
 
 ### Easy use of benchmark
-You can also use our benchmark in the huggingface dataset library: https://huggingface.co/datasets/felfri/MAGBIG
+You can also use our benchmark in the HuggingFace dataset library: https://huggingface.co/datasets/felfri/MAGBIG
 
 
 ### citation
 If you like or use our work, please consider citing us.
-```
-@misc{friedrich2024multilingual,
+```bibtex
+@inproceedings{friedrich2025multilingual,
       title={Multilingual Text-to-Image Generation Magnifies Gender Stereotypes and Prompt Engineering May Not Help You}, 
-      author={Felix Friedrich and Katharina Hämmerl and Patrick Schramowski and Jindrich Libovicky and Kristian Kersting and Alexander Fraser},
-      year={2024},
-      eprint={2401.16092},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      author={Felix Friedrich and Katharina Hämmerl and Patrick Schramowski and Manuel Brack and Jindrich Libovicky and Kristian Kersting and Alexander Fraser},
+      year={2025},
+      booktitle={In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL main 2025)},
 }
 ```
